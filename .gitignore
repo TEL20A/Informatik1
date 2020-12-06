@@ -30,4 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Jupyter Checkpoints
+.ipynb_checkpoints
+
+# Misc
 .DS_Store
