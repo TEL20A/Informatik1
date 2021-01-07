@@ -17,10 +17,8 @@ int get_number(char player) {
   while (true) {
     cout << "Spieler " << player << ", bitte Spielfeld auswaehlen: ";
     cin >> field;
-    // if (cin.fail()) {
     if (field < 1 || field > 9) {
       field = 0;
-      // cin.clear();
       cout << "Bitte eine Zahl zwischen 1 und 9 eingeben!\n";
     }
     else {
