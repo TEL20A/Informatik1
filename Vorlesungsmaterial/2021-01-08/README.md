@@ -3,6 +3,13 @@
 Hier sind die Aufgaben sowie Beispiele zu Pointern aus dem Labor mit Lösungen.
 [Link zum Repl.it](https://repl.it/join/lrjfezgq-toj11001)
 
+
+## Auführen des Programms:
+
+- Kompilieren: `make`
+- Starten (+Kompilieren): `make run`
+- Output löschen: `make clean`
+
 ## Mögliche Übungen:
 
 ***In TicTacToe:***
