@@ -20,6 +20,6 @@
 
 void print_mem(std::string str="") {
   std::cout << str << std::endl;
-  system("ps -o pid,user,%mem,command | sort -b -k3 | grep ./time.out");
+  system("ps -o pid,user,%mem,command | sort -b -k3 | grep ./main.out");
 }
 ```
