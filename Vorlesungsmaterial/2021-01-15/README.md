@@ -9,7 +9,7 @@
 
 ## Hilfen:
 
-- Benutzung der [`ctime` Bibliothek](https://www.cplusplusdASD.com/reference/ctime/clock/) zum messen der Zeit/CPU-Zyklen (`#include <ctime>`)
+- Benutzung der [`ctime` Bibliothek](https://www.cplusplus.com/reference/ctime/clock/) zum messen der Zeit/CPU-Zyklen (`#include <ctime>`)
 
 - Funktion zum Ausgeben der Memory Nutzung von Prozessen auf Linux Systemen
 ``` C++
