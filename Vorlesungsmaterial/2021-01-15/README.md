@@ -1,13 +1,16 @@
 # Labor 15.01.21
 
+**Aufgabe 1:**
 - Vergleich der Performanz und Memory Nutzung von pass-by-reference vs. pass-by-value
+
+**Aufgabe 2:**
 - Programm zum Einlesen eines Integers (0-100) und dessen Ausgabe als String:
   - `25` --> `Fünfundzwanzig`
   - Unterschiedliche Schwierigkeitsgerade:
     - Zahlensystem auf Englisch ist einfacher.
     - Schwieriger mit Zahlen bis 1000 und auf Deutsch
 
-## Hilfen:
+## Hilfen zu Aufgabe 1:
 
 - Benutzung der [`ctime` Bibliothek](https://www.cplusplus.com/reference/ctime/clock/) zum messen der Zeit/CPU-Zyklen (`#include <ctime>`)
 
