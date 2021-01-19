@@ -23,3 +23,10 @@ void print_mem(std::string str="") {
   system("ps -o pid,user,%mem,command | sort -b -k3 | grep ./main.out");
 }
 ```
+
+## Lösungen
+
+- [Link zum Repl.it](https://repl.it/join/ucowvexi-toj11001)
+- Zwei Beispiele für die Zweite Aufgabe mit dem Ausgeben des Integers:
+  - Eine Lösung mit Nutzung von Switch Case
+  - Eine Lösung über Vektoren und Modulo (ähnlich wie beim tictactoe board)
