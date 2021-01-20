@@ -7,3 +7,6 @@ Und die Grafik zum Beispiel eines Zustandsautomaten für ein Parkhaus.
 **Lektüre zum Thema Gleitkommazahlen**
 
 [Hier](http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/005_c_basisdatentypen_008.htm) gibt es eine gute Erklärung wie sich die Datentypen `float` und `double` genau im Speicher zusammensetzen und wo die Unterschiede liegen.
+
+![float](http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/bilder/05_002.gif)
+![double](http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/bilder/05_003.gif)
