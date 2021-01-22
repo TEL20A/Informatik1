@@ -1,7 +1,7 @@
 # Modellierung und Programmierung eines Getränkeautomaten
 
 
-|Der Automat hat eine bestimmte Anzahl an Erfrischungsgetränken unterschiedlicher Sorten. Der Automat verfügt über einen Geldeinwurf, ein Display zur Anzeige von Informationen, Knöpfe zur Getränkeauswahl und ein Ausgabefach.|<img src="https://www.dhuenn.com/wp/wp-content/uploads/2017/10/sandenvendo-g-drink-dm6-front.jpg" width="250"/>
+|Der Automat hat eine bestimmte Anzahl an Erfrischungsgetränken unterschiedlicher Sorten. Der Automat verfügt über einen Geldeinwurf, ein Display zur Anzeige von Informationen, Knöpfe zur Getränkeauswahl und ein Ausgabefach.|<img src="https://www.dhuenn.com/wp/wp-content/uploads/2017/10/sandenvendo-g-drink-dm6-front.jpg" width="250"/>
 |---|---
 <br>
 
@@ -23,4 +23,5 @@ Funktionen/Methoden des Automats:
 
 
 <br>
+
 Es bietet sich an für den Automaten `structs` für die einzelnen Getränkeseorten zu erstellen um z.B. Preis, Anzahl, etc für die jeweilige Sorte zu speichern. Es geht aber auch ohne.
