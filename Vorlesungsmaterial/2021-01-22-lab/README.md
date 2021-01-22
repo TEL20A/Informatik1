@@ -25,3 +25,21 @@ Funktionen/Methoden des Automats:
 <br>
 
 Es bietet sich an für den Automaten `structs` für die einzelnen Getränkeseorten zu erstellen um z.B. Preis, Anzahl, etc für die jeweilige Sorte zu speichern. Es geht aber auch ohne.
+
+
+## Beispielablauf
+
+```shell
+Bitte Getränk wählen:
+1) Cola   2,50 EUR
+2) Fanta  2,50 EUR
+3) Wasser 1,50 EUR
+```
+Eingabe: `1`
+```shell
+Bitte 2,50 EUR bezahlen. Akzeptierte Münzen: 50 Cent, 1 EUR, 2 EUR
+1) 0,50 EUR
+2) 1 EUR
+3) 2 EUR
+```
+
