@@ -8,8 +8,8 @@
 Funktionen/Methoden des Automats:
 - `getraenkAuswaehlen(Getraenk);` List die Nutzerauswahl von der Konsole ein
 - `getraenkAusgeben(Getraenk);`: Schreibt die Getränkeausgabe auf die Konsole
-- `geldEinwerfen(int);`: Gibt dem Nutzer eine Auswähl an Münzen und liest
-- `getPreis(Getraenk);`: gibt den Preis des Getraenks zurück
+- `geldEinwerfen(int);`: Gibt dem Nutzer eine Auswähl an Münzen und liest (50 Cent, 100 Cent, 200 Cent)
+- `getPreis(Getraenk);`: gibt den Preis des Getraenks zurück (in Cent)
 - `setPreis(int neuPreis, Getraenk);` : Wartungsmitarbeiter kann den Preis des ausgewählten Getränks verändern.
 
 | Getränkeautomat Variablen | Tips
