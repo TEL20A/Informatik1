@@ -13,11 +13,11 @@ Um `BubbleSort` zu implementieren entwickeln wir nacheinander die folgenden Funk
 
 - `void swap(vector<int> & v, int i, int j);`  
   Soll im Vektor `v` die Elemente an den Stellen `i` und `j` miteinander vertauschen.
-- `void compare_and_swap(vector<int> & v, int i, int j);`  
+- `void compareAndSwap(vector<int> & v, int i, int j);`  
   Soll im Vektor `v` die Elemente an den Stellen `i` und `j` miteinander vergleichen und sie vertauschen, falls sie falsch herum sortiert sind. 
-- `void bubble_up(vector<int> & v);`  
+- `void bubbleUp(vector<int> & v);`  
   Soll im Vektor `v` einen Durchlauf wie oben beschrieben machen, so dass größere Elemente Richtung Ende wandern.
-- `void bubblesort(vector<int> & v);`  
+- `void bubbleSort(vector<int> & v);`  
   Soll den Vektor `v` mit dem Verfahren `BubbleSort` sortieren.
 
 **Anmerkungen:**
@@ -43,14 +43,14 @@ Auch für `SelectionSort` entwickeln wir wieder eine Reihe von Hilfsfunktionen:
   Soll im Vektor `v` die Elemente an den Stellen `i` und `j` miteinander vertauschen.
 - `int select(vector<int> & v, int i);`  
   Soll im Vektor `v` ab Stelle `i` das kleinste Element suchen und dessen Position zurückgeben.
-- `void selectionsort(vector<int> & v);`  
+- `void selectionSort(vector<int> & v);`  
   Soll den Vektor `v` mit dem Verfahren `SelectionSort` sortieren.
   
 ## Aufgaben
 
-- Entwickeln Sie die Sortiertfunktion `bubblesort()`, indem Sie nacheinander die obigen Hilfsfunktionen schreiben und dabei jeweils möglichst die vorherigen Funktionen nutzen.
+- Entwickeln Sie die Sortiertfunktion `bubbleSort()`, indem Sie nacheinander die obigen Hilfsfunktionen schreiben und dabei jeweils möglichst die vorherigen Funktionen nutzen.
 Die Funktion soll einen `int`-Vektor aufsteigend sortieren.
-- Entwickeln Sie die Sortiertfunktion `selectionort()`, indem Sie nacheinander die obigen Hilfsfunktionen schreiben und dabei jeweils die vorherigen Funktionen nutzen, soweit das sinnvoll ist.
+- Entwickeln Sie die Sortiertfunktion `selectionSort()`, indem Sie nacheinander die obigen Hilfsfunktionen schreiben und dabei jeweils die vorherigen Funktionen nutzen, soweit das sinnvoll ist.
 Die Funktion soll einen `int`-Vektor aufsteigend sortieren.
 - Erweitern/verändern Sie Ihre Sortierverfahren:
   - Die Listen sollen absteigend sortiert werden.
