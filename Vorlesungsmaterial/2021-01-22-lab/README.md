@@ -43,3 +43,7 @@ Bitte 2,50 EUR bezahlen. Akzeptierte Münzen: 50 Cent, 1 EUR, 2 EUR
 3) 2 EUR
 ```
 
+# Lösungsvorschlag
+
+Ein Lösungsvorschlag (`automat.cpp`) für den Getränkenautomaten. Der Wartungsmodus hat noch keine Funktionalität.
+Hier das [Repl.it](https://repl.it/join/iyeiykeh-toj11001).
