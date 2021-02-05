@@ -18,10 +18,10 @@ enum Wert
 };
 
 // Hilfsfunktion: Gibt zu einer Farbe einen String zurück.
-std::string str(Farbe f);
+string str(Farbe f);
 
 // Hilfsfunktion: Gibt zu einem Wert einen String zurück.
-std::string str(Wert w);
+string str(Wert w);
 
 // Klasse für Spielkarten. Jede Karte besteht aus einer Farbe und einem Wert.
 struct Spielkarte
@@ -66,17 +66,22 @@ void geben(vector<Spielkarte> & stapel, vector<Spielkarte> & hand);
 // Erwartet zwei Karten. Liefert true, falls sie nach den Mau-Mau-Regeln aufeinander gelegt werden dürfen, ansonsten false.
 bool passt(Spielkarte const & k1, Spielkarte const & k2);
 
+// Zeigt dem Spieler seine Karten sowie die oberste Karte vom Ablagestapel
+// und fragt ihn, welche er legen oder ob er ziehen möchte.
+// Prüft die Entscheidung des Spielers und führt sie durch.
+void legen(string name, vector<Spielkarte> & kartenstapel, vector<Spielkarte> & ablagestapel, vector<Spielkarte> & hand);
+
 // Mainfunktion mit Beispiel- bzw. Testcode.
 int main() {
   // Erzeugt ein Skatblatt und gibt nacheinander alle Karten aus.
   vector<Spielkarte> blatt = skatBlatt();
   for (auto karte : blatt)
   {
-    std::cout << str(karte.farbe) << " " << str(karte.wert) << endl;
+    cout << str(karte.farbe) << " " << str(karte.wert) << endl;
   }
 }
 
-std::string str(Farbe f)
+string str(Farbe f)
 {
   switch (f)
   {
@@ -89,7 +94,7 @@ std::string str(Farbe f)
   return "";
 }
 
-std::string str(Wert w)
+string str(Wert w)
 {
   switch (w)
   {
