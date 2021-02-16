@@ -36,4 +36,5 @@
 
 # Misc
 .DS_Store
-Vorlesungsmaterial/2021-01-18/const_vol.dSYM/Contents/Info.plist
+*.plist
+*.dSYM/
